@@ -1,432 +1,212 @@
-# StrydeX
-
-### AI-Powered Cricket Performance & Athlete Development
+# StrydeX 2.0 — AI-Powered Cricket Performance Platform
 
 <p align="center">
-  <strong>Train Smarter. Play Better.</strong>
+  <img src="frontend/public/strydex-logo.svg" width="96" height="96" alt="StrydeX Logo" />
 </p>
 
 <p align="center">
-  Turning cricket videos and performance data into actionable insights for every athlete.
+  <strong>Train Smarter. Play Better.</strong><br/>
+  High-speed computer vision biomechanics (120 FPS CV), match telemetry, and Gemini-powered AI cricket coaching.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Stage-MVP%20Development-B7F34A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-SportsTech-101713?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI-Computer%20Vision-53D68A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Architecture-Fullstack%20Monorepo-B7F34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-React%2019%20%2B%20Vite-53D68A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Express%20%2B%20TypeScript-38BDF8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-Gemini%202.5%20Flash-FACC15?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Cricket%20SportsTech-101713?style=for-the-badge" />
 </p>
 
 ---
 
-## The One-Liner
-
-**StrydeX is an AI-powered athlete development platform that helps cricketers analyze their technique, measure performance, and track improvement using computer vision and performance intelligence.**
-
-We're starting with individual cricketers and building toward a connected ecosystem for athletes, coaches, and cricket academies.
-
----
-
-# The Vision
-
-## Every athlete deserves access to sports science.
-
-Professional athletes have access to performance analysts, specialized coaches, video analysis systems, and structured development programs.
-
-Most aspiring and amateur athletes don't.
-
-A young cricketer might have hours of training footage but no structured way to understand their technique, quantify improvement, or maintain a professional record of their development.
-
-Performance data is fragmented. Feedback is subjective. Progress is difficult to measure.
-
-StrydeX aims to change that.
-
-We envision a world where every athlete has access to an intelligent performance companion that understands their game, tracks their journey, and helps them improve.
-
----
-
-# The Problem
-
-Cricket is played by athletes across professional, amateur, club, school, and academy ecosystems.
-
-Yet meaningful performance intelligence remains difficult to access outside well-resourced environments.
-
-### 01 — Performance analysis is inaccessible
-
-Professional-grade sports analysis often requires expensive equipment, specialized facilities, or dedicated analysts.
-
-### 02 — Training data is fragmented
-
-Match statistics, training logs, videos, and coach feedback are scattered across different tools and platforms.
-
-### 03 — Improvement is difficult to quantify
-
-Athletes frequently rely on subjective feedback without a consistent record of their technical and performance development.
-
-### 04 — Talent is difficult to demonstrate
-
-An aspiring cricketer may have genuine potential but lack a structured, credible digital portfolio to communicate their abilities and achievements.
-
-**The underlying problem: Athletes generate valuable performance data, but lack an accessible system that turns it into meaningful development.**
-
----
-
-# The Solution
-
-## Your game. Measured. Understood. Elevated.
-
-StrydeX brings performance tracking, AI-assisted video analysis, and athlete development into one platform.
-
-| Product                  | Value                                                     |
-| ------------------------ | --------------------------------------------------------- |
-| AI Video Analysis        | Understand movement and technique through computer vision |
-| Performance Intelligence | Track batting, bowling, fielding, and fitness metrics     |
-| Athlete Development      | Maintain training history and measurable goals            |
-| Digital Athlete Profile  | Build a shareable record of statistics and achievements   |
-| Coach Collaboration      | Connect performance observations with structured feedback |
-
-Instead of being another cricket score-tracking application, StrydeX focuses on what happens between matches: **how athletes train, learn, and improve.**
-
----
-
-# Product
-
-## 01. AI Cricket Video Analysis
-
-The core technical differentiator.
-
-Athletes upload batting or bowling videos recorded using a standard smartphone.
-
-StrydeX uses computer vision to extract movement landmarks and generate structured performance observations.
-
-### Initial capabilities
-
-* Human pose estimation
-* Body landmark detection
-* Joint-angle estimation
-* Batting stance observations
-* Movement visualization
-* Frame-by-frame analysis
-* Historical session comparisons
-
-The initial product focuses on accessible, video-based analysis rather than expensive motion-capture infrastructure.
-
-Our long-term objective is to develop sport-specific models that can interpret cricket movements more meaningfully.
-
-## 02. Performance Intelligence
-
-A centralized performance record for each athlete.
-
-### Batting
-
-* Runs
-* Batting average
-* Strike rate
-* Highest score
-* Boundary percentage
-* Match-by-match trends
-
-### Bowling
-
-* Wickets
-* Economy rate
-* Bowling average
-* Bowling strike rate
-* Best bowling figures
-
-### Development
-
-* Performance trends
-* Training consistency
-* Personal records
-* Progress over time
-
-## 03. Athlete Development
-
-A structured system for continuous improvement.
-
-* Personal training goals
-* Training session logs
-* Development history
-* Progress tracking
-* Coach feedback
-* Performance milestones
-
-## 04. Digital Athlete Portfolio
-
-Every athlete gets a professional, shareable profile.
-
-A structured identity containing:
-
-* Playing role and style
-* Career statistics
-* Match history
-* Achievements
-* Training milestones
-* Highlight videos
-* Performance progression
-
-The portfolio is designed to help athletes communicate their development to coaches, academies, and potential opportunities.
-
----
-
-# Why Now?
-
-Three developments create an opportunity for a new generation of sports technology:
-
-**1. Accessible computer vision**
-
-Modern pose-estimation models make movement analysis increasingly feasible using ordinary cameras.
-
-**2. Smartphone-first sports ecosystems**
-
-Athletes already record training sessions and matches. StrydeX aims to turn this existing behavior into a structured performance workflow.
-
-**3. AI-powered personalization**
-
-Advances in machine learning make it possible to build increasingly personalized performance tools without requiring every athlete to have a dedicated analyst.
-
-The opportunity is to make performance intelligence accessible beyond elite sporting environments.
-
----
-
-# Initial Market
-
-## Starting with cricket. Building for athletes.
-
-Cricket is our initial market because it offers a focused environment to develop and validate sport-specific performance technology.
-
-### Initial customer segments
-
-**Individual cricketers**
-
-* Aspiring athletes
-* Amateur players
-* Club cricketers
-* Academy trainees
-
-**Coaches**
-
-* Independent cricket coaches
-* Batting and bowling specialists
-* Private training programs
-
-**Cricket academies**
-
-* Athlete development programs
-* Multi-coach training centers
-* Organized cricket institutions
-
-### Expansion opportunity
-
-The long-term platform architecture can support additional sports, but expansion will follow validation of the cricket product.
-
-The broader ambition is to build an athlete performance and development infrastructure that can extend beyond a single sport.
-
----
-
-# Business Model
-
-StrydeX is designed around a potential freemium SaaS model.
-
-| Tier        | Offering                                                       |
-| ----------- | -------------------------------------------------------------- |
-| Free        | Athlete profile, basic performance tracking                    |
-| Athlete Pro | Advanced analysis, development history, detailed insights      |
-| Coach       | Athlete management, feedback, performance monitoring           |
-| Academy     | Multi-athlete dashboards, team analytics, organizational tools |
-
-### Potential revenue streams
-
-1. Individual athlete subscriptions
-2. Coach subscriptions
-3. Academy SaaS plans
-4. Premium performance reports
-5. Future institutional partnerships
-
-Initial pricing and willingness to pay will be validated through athlete and academy interviews rather than assumed.
-
----
-
-# Go-To-Market Strategy
-
-## Start with athletes. Expand through coaches.
-
-### Phase 1 — Direct athlete adoption
-
-* Launch an MVP for individual cricketers.
-* Partner with local players for product testing.
-* Collect feedback on analysis quality and usability.
-* Build shareable athlete portfolios.
-
-### Phase 2 — Coach-led adoption
-
-* Introduce coach feedback workflows.
-* Pilot with small cricket academies.
-* Validate whether coaches find the platform useful for managing athlete development.
-
-### Phase 3 — Academy SaaS
-
-* Multi-athlete analytics
-* Academy dashboards
-* Coach and athlete collaboration
-* Institutional subscriptions
-
-### Initial validation goals
-
-* 10–20 athlete interviews
-* 5–10 active MVP testers
-* At least 3 coaches participating in feedback
-* Evidence of repeated usage
-* Initial willingness-to-pay conversations
-
-These are proposed validation targets, not achieved traction.
-
----
-
-# Competitive Positioning
-
-StrydeX is positioned at the intersection of:
-
-* Cricket performance analytics
-* AI-assisted video analysis
-* Athlete development
-* Digital athlete identity
-
-Our intended differentiation is the combination of accessible video-based analysis, longitudinal development records, and athlete-owned profiles in one workflow.
-
-We are not trying to replace coaches.
-
-**We want to give coaches and athletes better tools to understand performance and make training more measurable.**
-
----
-
-# Technology Stack
-
-| Layer              | Technology                        |
-| ------------------ | --------------------------------- |
-| Frontend           | Next.js, TypeScript, Tailwind CSS |
-| UI & Motion        | Framer Motion                     |
-| Backend            | Python, FastAPI                   |
-| Database           | PostgreSQL                        |
-| Computer Vision    | OpenCV, MediaPipe                 |
-| ML                 | PyTorch, NumPy, scikit-learn      |
-| Data Visualization | Recharts                          |
-| Storage            | S3-compatible object storage      |
-| Deployment         | Docker, cloud infrastructure      |
-
-### High-level architecture
-
-```mermaid
-flowchart TD
-    A[Athlete] --> B[Next.js Platform]
-    B --> C[FastAPI Backend]
-    C --> D[PostgreSQL]
-    C --> E[Video Storage]
-    E --> F[AI Processing Pipeline]
-    F --> G[Pose Estimation]
-    G --> H[Feature Extraction]
-    H --> I[Performance Analytics]
-    I --> J[Analysis Report]
-    J --> B
+## 🏗️ Repository Architecture
+
+The StrydeX project has been organized into a modular fullstack architecture:
+
+```
+strydeX-2.0/
+├── frontend/                     # React 19 + TypeScript + Vite + Tailwind v4 + Three.js
+│   ├── public/                   # Static assets & SVG icons
+│   │   └── strydex-logo.svg
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── 3d/               # Three.js WebGL & 3D visualizations
+│   │   │   │   ├── HeroCricketBall3D.tsx     # Interactive raymarched cricket ball
+│   │   │   │   ├── SkeletonPose3D.tsx        # 3D 17-point kinematic skeletal joint visualizer
+│   │   │   │   ├── Pitch3D.tsx               # 22-yard turf pitch coordinate visualizer
+│   │   │   │   ├── Cylindrical3DCarousel.tsx # 3D rotational carousel
+│   │   │   │   ├── PerspectiveGrid.tsx       # Kinetic depth grid
+│   │   │   │   ├── RefractionLens.tsx        # High-index optical glass lens
+│   │   │   │   └── ThreeCricketBall.tsx      # Dual-seam procedural cricket ball
+│   │   │   ├── analytics/        # Batting, bowling, fielding & fitness telemetry
+│   │   │   ├── athlete/          # Athlete profile & public scout portfolio
+│   │   │   ├── auth/             # Sign-in & sign-up flows
+│   │   │   ├── dashboard/        # Central command dashboard with KPIs & feeds
+│   │   │   ├── landing/          # Hero, live preview, feature grid & pricing
+│   │   │   ├── layout/           # AppLayout, Navbar with connection indicator, Footer
+│   │   │   ├── onboarding/       # 4-step interactive athlete calibration flow
+│   │   │   ├── settings/         # Bio, preferences, sensors, security
+│   │   │   ├── training/         # Drill catalog, development goals, progress bars
+│   │   │   ├── ui/               # 3D tilt cards, counters, toasts, modals
+│   │   │   └── video/            # AI video analysis & biomechanics overlays
+│   │   ├── context/
+│   │   │   └── AppContext.tsx    # State management with backend sync + offline fallback
+│   │   ├── lib/
+│   │   │   └── mock-data.ts      # Seed telemetry, drills, goals, and profiles
+│   │   ├── services/
+│   │   │   └── api.ts            # Typed REST API client with reverse proxy support
+│   │   ├── types/
+│   │   │   └── index.ts          # Cricket domain TypeScript interfaces
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css             # Tailwind v4 theme tokens & custom animations
+│   ├── index.html
+│   ├── vite.config.ts            # Proxies `/api` -> `http://localhost:5000`
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── backend/                      # Node.js + Express + TypeScript + Google GenAI
+│   ├── src/
+│   │   ├── config.ts             # Port, CORS, and Gemini API keys
+│   │   ├── server.ts             # Express server, middlewares, error handlers
+│   │   ├── data/
+│   │   │   └── initialStore.ts   # Seed athlete store (Arjun Sharma, STX-8492)
+│   │   ├── routes/
+│   │   │   ├── auth.ts           # /api/auth (login, register, me, logout)
+│   │   │   ├── profile.ts        # /api/profile (get, update, public scout profile)
+│   │   │   ├── matches.ts        # /api/matches (get, create, delete, stats)
+│   │   │   ├── videos.ts         # /api/videos (get, analyze, upload)
+│   │   │   ├── training.ts       # /api/training (drills, goals, programs)
+│   │   │   ├── analytics.ts      # /api/analytics (summary, trends, zones, dismissals)
+│   │   │   └── aiCoach.ts        # /api/ai (Gemini 2.5 Flash cricket coach & biomechanics)
+│   │   ├── services/
+│   │   │   ├── biomechanicsEngine.ts # Kinematic sports science calculator
+│   │   │   ├── dataStore.ts      # In-memory CRUD data store
+│   │   │   └── geminiService.ts  # Google GenAI integration with heuristic fallback
+│   │   └── types/
+│   │       └── index.ts          # Backend cricket domain interfaces
+│   ├── .env.example
+│   ├── .env
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── package.json                  # Root monorepo scripts
+└── README.md
 ```
 
 ---
 
-# MVP Roadmap
+## ⚡ Quick Start
 
-## V1 — Athlete Performance Platform
+### 1. Install Dependencies
 
-* [x] Product concept and positioning
-* [x] Initial product architecture
-* [ ] Landing page
-* [ ] Authentication
-* [ ] Player onboarding
-* [ ] Athlete profile
-* [ ] Match logging
-* [ ] Batting and bowling analytics
-* [ ] Video upload
-* [ ] Pose estimation
-* [ ] Visual analysis report
-* [ ] Training goals
-* [ ] Shareable athlete portfolio
-* [ ] Deployment and pilot testing
+You can install dependencies for both services:
 
-## V2 — Coach Intelligence
+```bash
+# Install frontend dependencies
+cd frontend
+npm install
 
-* Coach accounts
-* Athlete management
-* Feedback and annotations
-* Academy dashboard
-* Team performance analytics
+# Install backend dependencies
+cd ../backend
+npm install
+```
 
-## V3 — Athlete Ecosystem
+### 2. Configure Environment Variables
 
-* Advanced cricket-specific models
-* Personalized development recommendations
-* Verified achievements
-* Athlete discovery
-* Academy and institutional partnerships
+The backend includes a pre-configured `.env` file:
 
----
+```env
+PORT=5000
+CORS_ORIGIN=http://localhost:5173
+NODE_ENV=development
+# Optional: Add your Gemini API key for live AI coaching responses
+GEMINI_API_KEY=
+```
 
-# What We Are Learning
+*(If no `GEMINI_API_KEY` is provided, the backend automatically uses its built-in cricket sports science heuristic engine.)*
 
-The initial technical and product questions we aim to investigate:
+### 3. Run the Development Servers
 
-1. How accurately can smartphone video support useful cricket movement observations?
-2. Which technical metrics are meaningful to coaches?
-3. Can athletes consistently record videos in standardized conditions?
-4. Which insights actually influence training decisions?
-5. Will individual athletes or academies pay for accessible performance intelligence?
-6. How can the platform create trustworthy, athlete-controlled performance records?
+From the root directory:
 
-We intend to validate these questions through real-world testing rather than assuming that a technically impressive model automatically creates a useful product.
+```bash
+# Run the backend (starts Express on http://localhost:5000)
+npm run backend:dev
 
----
+# Run the frontend (starts Vite on http://localhost:3000)
+npm run frontend:dev
+```
 
-# The Long-Term Vision
+Or run them individually inside their folders:
+```bash
+# In frontend/:
+npm run dev
 
-## From video analysis to athlete intelligence.
+# In backend/:
+npm run dev
+```
 
-We are starting with cricket video analysis, but the long-term opportunity is larger.
-
-Imagine every athlete having a continuously evolving digital performance profile — a system that understands their history, measures development, supports coaching, and helps communicate their abilities.
-
-StrydeX aims to become the infrastructure connecting:
-
-**Athletes → Performance Data → Coaches → Development → Opportunities**
-
-Our ambition is to make high-quality performance intelligence accessible to athletes regardless of the resources available to them.
+Open your browser at **`http://localhost:3000`** (or the port shown in your terminal).
 
 ---
 
-# About
+## 🔗 Frontend-Backend Integration
 
-StrydeX is an early-stage sports-tech venture concept being developed around AI, computer vision, and athlete-centered product design.
-
-The project combines interests in machine learning, sports science, software engineering, and entrepreneurship.
-
-We are building the initial MVP with cricket as the starting point and intend to validate the product with athletes and coaches.
+- **Reverse Proxy**: In development, `frontend/vite.config.ts` automatically proxies all `/api/*` network requests to `http://localhost:5000`.
+- **Typed Client**: `frontend/src/services/api.ts` provides strongly-typed async calls for all backend features.
+- **Optimistic State & Offline Resilience**: `frontend/src/context/AppContext.tsx` automatically detects whether the backend server is reachable.
+  - When **connected**: Updates sync directly to the backend Express server.
+  - When **offline**: Operates seamlessly in local mode with `localStorage` persistence and displays a live connection status pill in the top navigation bar.
 
 ---
 
-# Join the Journey
+## 📡 Backend REST API Reference
 
-We're interested in connecting with:
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/health` | Service health status, uptime, and timestamp |
+| `POST` | `/api/auth/login` | Authenticate athlete (`email`, `password`) |
+| `POST` | `/api/auth/register` | Register new athlete account |
+| `GET` | `/api/auth/me` | Fetch active authenticated athlete |
+| `GET` | `/api/profile` | Retrieve athlete profile details |
+| `PUT` | `/api/profile` | Update athlete profile details |
+| `GET` | `/api/profile/public/:username` | Public shareable scout profile |
+| `GET` | `/api/matches` | Get all match logs |
+| `POST` | `/api/matches` | Log a new match performance |
+| `DELETE`| `/api/matches/:id` | Delete a match log |
+| `GET` | `/api/matches/stats` | Aggregated batting & bowling stats |
+| `GET` | `/api/videos` | Fetch all biomechanical video analysis sessions |
+| `GET` | `/api/videos/:id` | Fetch specific video session by ID |
+| `POST` | `/api/videos/analyze` | Run 120 FPS CV kinematic simulation and return analysis |
+| `GET` | `/api/training/drills` | Fetch all training drills |
+| `POST` | `/api/training/drills` | Create a new training drill |
+| `PATCH`| `/api/training/drills/:id/toggle` | Toggle drill completion status |
+| `GET` | `/api/training/goals` | Fetch all development goals |
+| `POST` | `/api/training/goals` | Create a new development goal |
+| `PATCH`| `/api/training/goals/:id/toggle` | Toggle goal completion status |
+| `DELETE`| `/api/training/goals/:id` | Delete a development goal |
+| `GET` | `/api/training/programs` | List curated training programs |
+| `GET` | `/api/analytics/summary` | Batting, bowling, fielding & fitness KPI summary |
+| `GET` | `/api/analytics/trends` | Time series trends (`7D`, `30D`, `90D`, `All Time`) |
+| `GET` | `/api/analytics/zones` | Wagon wheel radial scoring zones |
+| `GET` | `/api/analytics/dismissals` | Dismissal vulnerability breakdown |
+| `POST` | `/api/ai/coach` | Ask StrydeX AI Coach (Gemini 2.5 Flash / Heuristic) |
+| `POST` | `/api/ai/biomechanics` | Automated kinematic evaluation of cricket shots |
 
-* Cricketers willing to test the platform
-* Cricket coaches
-* Sports science practitioners
-* Cricket academies
-* AI/ML engineers
-* Potential collaborators and early supporters
+---
 
-**Help us make performance intelligence accessible to every cricketer.**
+## 🏏 Key Features
+
+1. **3D WebGL Cricket Physics**: Interactive Three.js dual-seam red leather ball with specular reflections, seam rotation, and physics-based lighting.
+2. **Kinematic Computer Vision (120 FPS)**: 17-point skeletal landmark tracking, lead elbow angle calculation, head stability index, and weight transfer phase timeline.
+3. **Multi-Format Match Telemetry**: T20, 50-Over, Red Ball, and Net practice logging with wagon wheel scoring zones and pitch length distributions.
+4. **Development Goals & Drills**: SMART milestone tracking with category breakdown (Technique, Tactical, Fitness, Mental) and interactive drill checklist.
+5. **Verified Scout Portfolio**: Shareable public digital athlete profiles with QR codes for scouts, coaches, and academy selection trials.
+6. **Gemini 2.5 Flash AI Coach**: Intelligent cricket coaching engine calibrated with sports science principles and tactical drills.
 
 ---
 
 <p align="center">
-  <strong>StrydeX</strong><br/>
-  Train Smarter. Play Better.
+  <strong>StrydeX</strong> — Train Smarter. Play Better.
 </p>
-
