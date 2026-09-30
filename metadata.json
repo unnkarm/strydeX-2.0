@@ -1,0 +1,6 @@
+{
+  "name": "StrydeX — AI-Powered Cricket Performance Platform",
+  "description": "Next-generation sports-tech platform for cricketers, coaches, and academies. Biomechanical video analysis, batting & bowling telemetry, personalized training, and athlete portfolios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
